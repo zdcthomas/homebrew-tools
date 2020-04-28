@@ -1,10 +1,11 @@
 class Dmux < Formula
   desc "Creates and handles tmux workspaces"
   homepage "https://github.com/zdcthomas/dmux"
-  url "https://github.com/zdcthomas/dmux/releases/download/v0.1.0/dmux"
-  sha256 "ad04c8f50d4b333ad936e8bac4ffb7327fa3544cf1071bd850e5f3976cea47b6"
+  url "https://github.com/zdcthomas/dmux/releases/download/v0.1.1/dmux"
+  sha256 "9bd2cff014a193e2ea7c9ee81b72a9f9b8a29be95905d684690fac247cceff9a"
 
   depends_on "fzf"
+  depends_on "tmux"
 
   def install
     bin.install "dmux"
