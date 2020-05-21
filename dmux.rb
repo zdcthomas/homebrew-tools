@@ -1,8 +1,8 @@
 class Dmux < Formula
   desc "Creates and handles tmux workspaces"
   homepage "https://github.com/zdcthomas/dmux"
-  url "https://github.com/zdcthomas/dmux/releases/download/v0.4.4/dmux"
-  sha256 "8c6a85bb696d9bdd61ca3bf67f04a1e0dadbc85f9f563896b0e8cb1efe33bfef"
+  url "https://github.com/zdcthomas/dmux/releases/download/v0.5.0/dmux"
+  sha256 "daf59fde3dd47f6a35db5a7c9f9431f85d4967365a3a642d798b6f9cb7ef084d"
 
   depends_on "fzf"
   depends_on "tmux"
